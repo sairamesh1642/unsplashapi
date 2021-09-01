@@ -1,0 +1,17 @@
+<html>  
+<head>   
+<title> Random Image Generator </title>  
+</head>  
+<script>  
+function getRandomImage() {    
+return document.getElementById("result").innerHTML = '<img src="https://api.unsplash.com/" />';  
+}  
+</script>  
+<body>  
+<center><h2 style="color:green"> Random Image Generator </h2></center>  
+<button onclick = "setInterval(getRandomImage, 2000)"> Generate Image </button>  
+<br> <br>  
+<span id="result" align="center"> </span>   
+    
+</body>    
+</html>
